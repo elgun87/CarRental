@@ -1,0 +1,237 @@
+/* Header starts */
+.header {
+    height: 100px;
+    background: var(--mainBgr);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--jakarta);
+    border: 1px solid #B8B8B8
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 24px;
+    gap: 38px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 48px;
+    font-size: 32px;
+    margin-left: 66px;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 64px;
+}
+
+.log_in {
+    padding: 18px;
+    background: #FFFFFF;
+    color: var(--textColorBlack) !important;
+    border-radius: 8px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log_in:hover {
+    background: #53C8A1;
+}
+
+
+.home {
+    color: var(--textColorBlack) !important;
+}
+
+.header-nav-link {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: var(--textColorWhite);
+    opacity: 90%;
+}
+
+.register {
+    display: block;
+    border-left: 1px solid white;
+    padding-left: 18px;
+}
+
+/* Header Ends */
+
+/* Main Starts */
+
+.booking {
+    height: 734px;
+    background: var(--mainBgr);
+    display: flex;
+    gap: 72px;
+    font-family: var(--jakarta);
+}
+
+
+.booking-left-container-content {
+    width: 80%;
+    margin-top: 252px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 72px;
+
+}
+
+/* .booking-left {
+    flex-basis: 50%;
+} */
+
+.booking-right-container {
+    flex-basis: 50%;
+    background: #53C8A1;
+    border-top-left-radius: 64px;
+    margin-top: 77px;
+}
+
+.booking span {
+    font-family: var(--roboto) !important;
+}
+
+.car-rental-promo-heading {
+    font-family: var(--jakarta);
+    font-weight: 800;
+    line-height: 56px;
+    font-size: 46px;
+    margin-top: 38px;
+}
+
+.car-rental-description {
+    font-family: var(--jakarta);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -2%;
+    color: var(--textColorBlack);
+    opacity: 45%;
+    margin-top: 24px;
+
+}
+
+.booking-controls {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-top: 54px;
+}
+
+.booking-controls-button {
+    width: 150px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 0 20px;
+    border: none;
+    background: #FFFFFF;
+
+}
+
+.booking-controls-button:hover {
+    cursor: pointer;
+    background: #53C8A1;
+}
+
+.booking-controls-link {
+    font-family: var(--jakarta);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #1A202C;
+}
+
+.booking-controls-link:hover {
+    cursor: pointer;
+
+}
+
+.booking-right-container {
+    position: relative;
+}
+
+.booking-logo-container {
+    position: absolute;
+    top: 62px;
+    left: 168px;
+
+}
+
+.middle-container {
+    margin-top: 84px;
+}
+
+.middle-container-heading {
+    text-align: center;
+    font-family: var(--jakarta);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -2%;
+}
+
+.middle-container-content {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer {
+    margin-top: 36px;
+    display: flex;
+    margin-bottom: 112px;
+}
+
+.footer-section-left {
+    width: 50%;
+    margin-left: 76px;
+}
+
+.footer-logo-container {
+    width: 566px;
+    height: 528px;
+    background: #27BDC7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.col-md-2 {
+    background: #C4C4C4;
+    height: 52px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    border: none !important;
+}
+
+.footer-section-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
